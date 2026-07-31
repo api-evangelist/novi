@@ -1,8 +1,23 @@
 aid: novi
 name: Novi
-description: 'Novi is a company surfaced as a portfolio company of cowboy-ventures, greylock and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Novi Connect is an AI shopping optimization platform for consumer packaged
+  goods (CPG) and retail brands. Its AI Shopping Optimizer structures and optimizes
+  product data feeds so that AI systems, agentic search, and commerce assistants can
+  accurately understand, trust, and recommend products, while its Product Authority
+  Builder verifies and distributes product data through direct feeds with major retailers
+  and marketplaces. Novi Connect is backed by Cowboy Ventures and Greylock.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66392100a4c9657a20a5ee78/683acdca063f6461bed51d50_Novi-Meta-OpenGraph.png
 url: https://raw.githubusercontent.com/api-evangelist/novi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Artificial Intelligence
+- Commerce
+- Retail
+- Consumer Packaged Goods
+- Product Data
+- E-Commerce
+- Agentic Search
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.noviconnect.com/
+- type: Documentation
+  url: https://noviconnect-docs.notion.site/
+- type: Blog
+  url: https://www.noviconnect.com/resources
+- type: Login
+  url: https://app.noviconnect.com/
+- type: TermsOfService
+  url: https://www.noviconnect.com/legal
+- type: PrivacyPolicy
+  url: https://www.noviconnect.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/novi-connect
+- type: DomainSecurity
+  url: security/novi-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
